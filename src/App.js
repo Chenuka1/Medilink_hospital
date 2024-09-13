@@ -4,7 +4,7 @@ import Login from './pages/login';
 import Patientregister from './pages/Patientregister';
 import Addtimeslot from './components/addTimeslot';
 import Appoinment from './pages/appoinment';
-import Historyappoinment from './pages/appoinmenthistory';
+
 import Home from './pages/Home'; 
 import Doctordashboard from './components/doctorDashboard';
 import Dailyappoinment from './components/dailyappoinment';
@@ -13,7 +13,7 @@ import Viewtimeslot from './components/viewTimeslot';
 import Registermedicine from './components/registerMedicine';
 import Addrecord from './pages/addrecord';
 import Addpatient from './components/addPatients';
-import PrescriptionForm from './pages/prescription';
+
 import AllocateDrugs from './components/allocateDrugs';
 import Adduser from './components/adduser';
 import ViewRecord from './components/viewRecord';
@@ -28,10 +28,10 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/register" element={<Patientregister />} />
           <Route path="/Appoinment" element={<Appoinment />} />
-          <Route path="/Appoinment-history" element={<Historyappoinment />} />
-          <Route path="/prescription-form" element={<PrescriptionForm/>}/>
+         
           <Route path="/add-user" element={<Adduser/>}/>
           <Route path="/available-time" element={<AvailableTimeslots/>}/>
+        
           
           
           
